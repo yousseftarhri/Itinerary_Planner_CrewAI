@@ -1,0 +1,33 @@
+tourism_task:
+  description: >
+    Identify and recommend the best tourist attractions, hidden gems, and must-visit spots in {city}.
+  expected_output: >
+    A list with 10 bullet points highlighting the top recommended places to visit in {city},  
+    including brief descriptions and reasons for selection.
+  agent: tourism_guide
+
+activities_task:
+  description: >
+    Identify and suggest the best activities and experiences in {city}  
+    based on the user's hobbies: {hobbies}.  
+    Consider local events, seasonal trends, and unique opportunities  
+    that align with these interests.
+  expected_output: >
+    A list with 10 bullet points if possible highlighting the best activities in {city}  
+    for people who enjoy {hobbies}. Each point should include a brief  
+    description and why it's a great choice.
+  agent: activities_guide
+
+food_recommender_task:
+  description: >
+    Identify the most popular traditional dishes in {city} and recommend the best restaurants where these dishes can be enjoyed.
+  expected_output: >
+    A list of traditional dishes from {city} along with restaurant recommendations, including name, location, and a brief reason why it's recommended.
+  agent: food_recommender
+
+travel_planner_task:
+  description: >
+    Generate a detailed 7-day travel itinerary, incorporating recommendations from context.
+  expected_output: >
+    A structured 7-day itinerary that includes daily activities.
+  agent: travel_planner
