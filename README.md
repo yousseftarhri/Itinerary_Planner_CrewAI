@@ -55,4 +55,4 @@ The system will generate a personalized travel itinerary just for you.
 
 Curious about how everything works under the hood?\
 Read the full breakdown on Medium here:\
-👉 Read the full article on Medium
+👉 [Read the full article on Medium](https://medium.com/@yousseftarhri15/ai-agents-for-travel-creating-a-smart-itinerary-planner-with-crewai-30111071e767)
