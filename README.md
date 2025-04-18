@@ -31,5 +31,28 @@ CrewAI coordinates these agents to collaborate **sequentially** and produce the 
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/crewai-travel-planner.git
-   cd crewai-travel-planner
+   git clone https://github.com/your-username/Itinerary_Planner_CrewAI.git
+   cd Itinerary_Planner_CrewAI
+   
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+3. Create a .env file and add your OpenAI API key:
+   ```bash
+   OPENAI_API_KEY=your_openai_key_here
+
+# Run the App
+
+`crewai run`\
+You’ll be prompted to enter:\
+🌍 The city you're traveling to\
+🎯 Your hobbies or interests
+
+The system will generate a personalized travel itinerary just for you.
+
+# 📖 Article & Code Explanation
+
+Curious about how everything works under the hood?\
+Read the full breakdown on Medium here:\
+👉 Read the full article on Medium
